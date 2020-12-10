@@ -12,7 +12,7 @@ import functools
 First I need to load the input. The issue here is that it reads hash symbol
 as a comment. I need to define, that there are no comments. """
 
-road=np.loadtxt("input.txt", dtype=str, comments=None)
+road=np.loadtxt("static/input_day3.txt", dtype=str, comments=None)
 trees=0
 
 for i in np.arange(road.shape[0]):

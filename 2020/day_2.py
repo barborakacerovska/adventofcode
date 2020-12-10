@@ -7,7 +7,7 @@ Created on Wed Dec  2 16:49:38 2020
 
 import numpy as np
 
-password=np.loadtxt("input.txt", dtype=str, delimiter=':')
+password=np.loadtxt("static/input_day2.txt", dtype=str, delimiter=':')
 
 
 

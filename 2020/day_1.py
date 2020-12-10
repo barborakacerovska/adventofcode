@@ -6,7 +6,7 @@ Created on Wed Dec  2 11:46:09 2020
 
 import numpy as np
 
-input = np.loadtxt('input.txt')
+input = np.loadtxt('static/input_day1.txt')
 
 ''' DAY 1a
 I am going to substract the field from 2020 and then compare it with 

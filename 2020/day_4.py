@@ -7,7 +7,7 @@ Created on Sun Dec  6 19:20:15 2020
 import numpy as np
 
 
-with open('input.txt', mode='r') as file:
+with open('static/input_day4.txt', mode='r') as file:
     data = file.readlines()
     
 
